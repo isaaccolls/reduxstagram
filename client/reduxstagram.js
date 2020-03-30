@@ -5,4 +5,7 @@ import { render } from 'react-dom';
 // import css
 import css from './styles/style.styl';
 
-render(<h1>Testing 420!👽</h1>, document.getElementById('root'));
+// import components
+import Main from './components/Main';
+
+render(<Main />, document.getElementById('root'));
